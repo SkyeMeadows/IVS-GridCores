@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
+  <UniqueName>Advanced Manuvering Amplifier</UniqueName>
+  <Modifiers>
+    <Stat>ThrusterForce</Stat>
+    <Value>1.4</Value>
+    <ModifierType>Multiplicative</ModifierType>
+  </Modifiers>
+  <Modifiers>
+    <Stat>ThrusterEfficiency</Stat>
+    <Value>0.9</Value>
+    <ModifierType>Multiplicative</ModifierType>
+  </Modifiers>
+  <Modifiers>
+    <Stat>GyroForce</Stat>
+    <Value>1.2</Value>
+    <ModifierType>Multiplicative</ModifierType>
+  </Modifiers>
+  <Modifiers>
+    <Stat>MaxSpeed</Stat>
+    <Value>0.1</Value>
+    <ModifierType>Additive</ModifierType>
+  </Modifiers>
+</UpgradeModule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CoreManifest>
+  <ShipCoreFilenames>Data/Cores/Miner_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Utility_core.xml</ShipCoreFilenames>
+  <UpgradeModuleFilenames>Data/UpgradeModules/DrillCountUpgrade.xml</UpgradeModuleFilenames>
+  <UpgradeModuleFilenames>Data/UpgradeModules/ManuveringStatUpgradeBasic.xml</UpgradeModuleFilenames>
+  <UpgradeModuleFilenames>Data/UpgradeModules/ManuveringStatUpgradeAdvanced.xml</UpgradeModuleFilenames>
+</CoreManifest>
