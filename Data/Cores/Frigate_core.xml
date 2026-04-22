@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Miner_Core</SubtypeId>
-  <UniqueName>Mining Vessel</UniqueName>
+  <SubtypeId>Frigate_Core</SubtypeId>
+  <UniqueName>Frigate</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
-  <MaxBlocks>8000</MaxBlocks>
+  <MaxBlocks>3000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
@@ -14,17 +14,10 @@
   <MaxPerFaction>-1</MaxPerFaction>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
-  <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
-    <MaxCount>4</MaxCount>
-  </AllowedUpgradeModules>
-  <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
-    <MaxCount>2</MaxCount>
-  </AllowedUpgradeModules>
+
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -37,10 +30,10 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.3</MaxSpeed>
-    <MaxBoost>0.5</MaxBoost>
-    <BoostDuration>10</BoostDuration>
-    <BoostCoolDown>60</BoostCoolDown>
+    <MaxSpeed>0.5</MaxSpeed>
+    <MaxBoost>0.65</MaxBoost>
+    <BoostDuration>30</BoostDuration>
+    <BoostCoolDown>180</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
     <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
@@ -76,16 +69,16 @@
     <BlockGroups>Assemblers</BlockGroups>
     <BlockGroups>O2 H2 Generators</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>Weaponry</BlockGroups>
+    <BlockGroups>Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>Drills</Name>
-    <BlockGroups>Drills</BlockGroups>
-    <MaxCount>25</MaxCount>
+    <Name>Weaponry</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>40</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

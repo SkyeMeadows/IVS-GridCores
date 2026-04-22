@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Miner_Core</SubtypeId>
-  <UniqueName>Mining Vessel</UniqueName>
+  <SubtypeId>Station_Core</SubtypeId>
+  <UniqueName>Station</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <MobilityType>Mobile</MobilityType>
-  <MaxBlocks>8000</MaxBlocks>
+  <MobilityType>Static</MobilityType>
+  <MaxBlocks>15000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
-  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MaxPerPlayer>2</MaxPerPlayer>
   <MaxPerFaction>-1</MaxPerFaction>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
@@ -18,12 +18,20 @@
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
+    <SubtypeId>AssemblerCountUpgrade-1</SubtypeId>
     <MaxCount>4</MaxCount>
   </AllowedUpgradeModules>
   <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
-    <MaxCount>2</MaxCount>
+    <SubtypeId>BARCountUpgrade-1</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>O2H2GeneratorCountUpgrade-4</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>RefineryCountUpgrade-4</SubtypeId>
+    <MaxCount>4</MaxCount>
   </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
@@ -71,21 +79,56 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>Disallowed Blocks</Name>
-    <BlockGroups>Welder-Grinder</BlockGroups>
-    <BlockGroups>Refineries</BlockGroups>
-    <BlockGroups>Assemblers</BlockGroups>
-    <BlockGroups>O2 H2 Generators</BlockGroups>
-    <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>Weaponry</BlockGroups>
+    <BlockGroups>Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>Drills</Name>
-    <BlockGroups>Drills</BlockGroups>
-    <MaxCount>25</MaxCount>
+    <Name>Welders / Grinders</Name>
+    <BlockGroups>Welder-Grinder</BlockGroups>
+    <MaxCount>15</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Refineries</Name>
+    <BlockGroups>Refineries</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Assemblers</Name>
+    <BlockGroups>Assemblers</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>O2/H2 Generators</Name>
+    <BlockGroups>O2 H2 Generators</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Build And Repairs (BARs)</Name>
+    <BlockGroups>BARs</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Weaponry</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>100</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

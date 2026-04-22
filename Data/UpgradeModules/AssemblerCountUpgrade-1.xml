@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>AssemblerCountUpgrade-1</SubtypeId>
+  <UniqueName>Assembler Count Upgrade +1</UniqueName>
+  <BlockLimitModifiers>
+    <BlockLimitName>Assemblers</BlockLimitName>
+    <Value>1</Value>
+    <ModifierType>Additive</ModifierType>
+  </BlockLimitModifiers>
+</UpgradeModule>

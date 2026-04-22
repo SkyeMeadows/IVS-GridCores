@@ -4,8 +4,8 @@
   <UniqueName>Utility Vessel</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <MobilityType>Both</MobilityType>
-  <MaxBlocks>-1</MaxBlocks>
+  <MobilityType>Mobile</MobilityType>
+  <MaxBlocks>8000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
@@ -17,8 +17,14 @@
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
-  <AllowedUpgradeModules><SubtypeId>ManuveringStatUpgradeBasic</SubtypeId><MaxCount>4</MaxCount></AllowedUpgradeModules>
-  <AllowedUpgradeModules><SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId><MaxCount>2</MaxCount></AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>

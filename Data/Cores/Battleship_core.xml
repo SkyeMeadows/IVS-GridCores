@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Miner_Core</SubtypeId>
-  <UniqueName>Mining Vessel</UniqueName>
+  <SubtypeId>Battleship_Core</SubtypeId>
+  <UniqueName>Battleship</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
-  <MaxBlocks>8000</MaxBlocks>
+  <MaxBlocks>9000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
-  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MaxPerPlayer>1</MaxPerPlayer>
   <MaxPerFaction>-1</MaxPerFaction>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
-  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
-  <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
-    <MaxCount>4</MaxCount>
-  </AllowedUpgradeModules>
-  <AllowedUpgradeModules>
-    <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
-    <MaxCount>2</MaxCount>
-  </AllowedUpgradeModules>
+  <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
+  
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -37,10 +30,10 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.3</MaxSpeed>
-    <MaxBoost>0.5</MaxBoost>
-    <BoostDuration>10</BoostDuration>
-    <BoostCoolDown>60</BoostCoolDown>
+    <MaxSpeed>0.25</MaxSpeed>
+    <MaxBoost>0.4</MaxBoost>
+    <BoostDuration>60</BoostDuration>
+    <BoostCoolDown>360</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
     <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
@@ -59,33 +52,33 @@
     <Kinetic>1</Kinetic>
   </PassiveDefenseModifiers>
   <ActiveDefenseModifiers>
-    <Bullet>1</Bullet>
+    <Bullet>0.5</Bullet>
     <PostShield>1</PostShield>
-    <Duration>0</Duration>
-    <Cooldown>0</Cooldown>
-    <Rocket>1</Rocket>
-    <Explosion>1</Explosion>
-    <Environment>1</Environment>
+    <Duration>60</Duration>
+    <Cooldown>360</Cooldown>
+    <Rocket>0.5</Rocket>
+    <Explosion>0.5</Explosion>
+    <Environment>0.5</Environment>
     <Energy>1</Energy>
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>Disallowed Blocks</Name>
+    <BlockGroups>Drills</BlockGroups>
     <BlockGroups>Welder-Grinder</BlockGroups>
     <BlockGroups>Refineries</BlockGroups>
     <BlockGroups>Assemblers</BlockGroups>
-    <BlockGroups>O2 H2 Generators</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>Weaponry</BlockGroups>
+    <BlockGroups>O2 H2 Generators</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>Drills</Name>
-    <BlockGroups>Drills</BlockGroups>
-    <MaxCount>25</MaxCount>
+    <Name>Weaponry</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>300</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

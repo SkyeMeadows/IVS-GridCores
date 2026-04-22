@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>BARCountUpgrade-1</SubtypeId>
+  <UniqueName>BAR Count Upgrade +1</UniqueName>
+  <BlockLimitModifiers>
+    <BlockLimitName>Build And Repairs (BARs)</BlockLimitName>
+    <Value>1</Value>
+    <ModifierType>Additive</ModifierType>
+  </BlockLimitModifiers>
+</UpgradeModule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>RefineryCountUpgrade-4</SubtypeId>
+  <UniqueName>Refinery Count Upgrade +4</UniqueName>
+  <BlockLimitModifiers>
+    <BlockLimitName>Refineries</BlockLimitName>
+    <Value>4</Value>
+    <ModifierType>Additive</ModifierType>
+  </BlockLimitModifiers>
+</UpgradeModule>

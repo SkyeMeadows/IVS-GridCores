@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>O2H2GeneratorCountUpgrade-4</SubtypeId>
+  <UniqueName>O2/H2 Generator Count Upgrade +4</UniqueName>
+  <BlockLimitModifiers>
+    <BlockLimitName>O2/H2 Generators</BlockLimitName>
+    <Value>4</Value>
+    <ModifierType>Additive</ModifierType>
+  </BlockLimitModifiers>
+</UpgradeModule>
