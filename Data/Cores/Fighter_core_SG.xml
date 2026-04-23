@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Cruiser_Core</SubtypeId>
-  <UniqueName>Cruiser</UniqueName>
+  <SubtypeId>Fighter_Core_SG</SubtypeId>
+  <UniqueName>Fighter Core SG</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Both</MobilityType>
-  <MaxBlocks>5000</MaxBlocks>
+  <MaxBlocks>4000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
@@ -16,8 +16,7 @@
   <MaxPlayers>-1</MaxPlayers>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
-  <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
-  
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -30,10 +29,10 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.4</MaxSpeed>
-    <MaxBoost>0.55</MaxBoost>
-    <BoostDuration>40</BoostDuration>
-    <BoostCoolDown>240</BoostCoolDown>
+    <MaxSpeed>0.6</MaxSpeed>
+    <MaxBoost>0.8</MaxBoost>
+    <BoostDuration>15</BoostDuration>
+    <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
     <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
@@ -52,13 +51,13 @@
     <Kinetic>1</Kinetic>
   </PassiveDefenseModifiers>
   <ActiveDefenseModifiers>
-    <Bullet>0.8</Bullet>
+    <Bullet>1</Bullet>
     <PostShield>1</PostShield>
-    <Duration>15</Duration>
-    <Cooldown>180</Cooldown>
-    <Rocket>0.8</Rocket>
-    <Explosion>0.8</Explosion>
-    <Environment>0.8</Environment>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
     <Energy>1</Energy>
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
@@ -68,8 +67,8 @@
     <BlockGroups>Welder-Grinder</BlockGroups>
     <BlockGroups>Refineries</BlockGroups>
     <BlockGroups>Assemblers</BlockGroups>
-    <BlockGroups>BARs</BlockGroups>
     <BlockGroups>O2 H2 Generators</BlockGroups>
+    <BlockGroups>BARs</BlockGroups>
     <BlockGroups>Ore Cleaners</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
@@ -79,7 +78,7 @@
   <BlockLimits>
     <Name>Weaponry</Name>
     <BlockGroups>Weaponry</BlockGroups>
-    <MaxCount>120</MaxCount>
+    <MaxCount>20</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

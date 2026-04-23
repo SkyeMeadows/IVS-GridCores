@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeModule>
+  <SubtypeId>OreCleanerCountUpgrade-2</SubtypeId>
+  <UniqueName>Ore Cleaner Count Upgrade +2</UniqueName>
+  <BlockLimitModifiers>
+    <BlockLimitName>Ore Cleaners</BlockLimitName>
+    <Value>2</Value>
+    <ModifierType>Additive</ModifierType>
+  </BlockLimitModifiers>
+</UpgradeModule>

@@ -25,6 +25,10 @@
     <SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
     <MaxCount>2</MaxCount>
   </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>OreCleanerCountUpgrade-2</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -86,6 +90,14 @@
     <Name>Drills</Name>
     <BlockGroups>Drills</BlockGroups>
     <MaxCount>25</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Ore Cleaners</Name>
+    <BlockGroups>Ore Cleaners</BlockGroups>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

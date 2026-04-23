@@ -596,4 +596,12 @@
       <CountWeight>6</CountWeight>
     </BlockTypes>
   </BlockGroup>
+  <BlockGroup>
+    <Name>Ore Cleaners</Name>
+    <BlockTypes>
+      <TypeId>Refinery</TypeId>
+      <SubtypeId>OreCompactorLarge</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
 </ArrayOfBlockGroup>

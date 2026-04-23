@@ -70,6 +70,7 @@
     <BlockGroups>Assemblers</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
     <BlockGroups>O2 H2 Generators</BlockGroups>
+    <BlockGroups>Ore Cleaners</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -23,7 +23,7 @@
   </AllowedUpgradeModules>
   <AllowedUpgradeModules>
     <SubtypeId>BARCountUpgrade-1</SubtypeId>
-    <MaxCount>4</MaxCount>
+    <MaxCount>2</MaxCount>
   </AllowedUpgradeModules>
   <AllowedUpgradeModules>
     <SubtypeId>O2H2GeneratorCountUpgrade-4</SubtypeId>
@@ -31,6 +31,10 @@
   </AllowedUpgradeModules>
   <AllowedUpgradeModules>
     <SubtypeId>RefineryCountUpgrade-4</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>OreCleanerCountUpgrade-2</SubtypeId>
     <MaxCount>4</MaxCount>
   </AllowedUpgradeModules>
   <Modifiers>
@@ -129,6 +133,14 @@
     <Name>Weaponry</Name>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>100</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Ore Cleaners</Name>
+    <BlockGroups>Ore Cleaners</BlockGroups>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
