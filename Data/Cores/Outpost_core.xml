@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Miner_Core_SG</SubtypeId>
-  <UniqueName>Mining Vessel SG</UniqueName>
+  <SubtypeId>Outpost_Core</SubtypeId>
+  <UniqueName>Outpost</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <MobilityType>Mobile</MobilityType>
-  <MaxBlocks>4000</MaxBlocks>
+  <MobilityType>Static</MobilityType>
+  <MaxBlocks>15000</MaxBlocks>
   <MinBlocks>-1</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
-  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MaxPerPlayer>2</MaxPerPlayer>
   <MaxPerFaction>-1</MaxPerFaction>
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>-1</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <AllowedUpgradeModules>
+    <SubtypeId>AssemblerCountUpgrade-1</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>O2H2GeneratorCountUpgrade-4</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>RefineryCountUpgrade-4</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
+  <AllowedUpgradeModules>
+    <SubtypeId>OreCleanerCountUpgrade-2</SubtypeId>
+    <MaxCount>2</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -63,22 +79,64 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>Disallowed Blocks</Name>
-    <BlockGroups>Welder-Grinder</BlockGroups>
-    <BlockGroups>Refineries</BlockGroups>
-    <BlockGroups>Assemblers</BlockGroups>
-    <BlockGroups>O2 H2 Generators</BlockGroups>
-    <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>Weaponry</BlockGroups>
-    <BlockGroups>Ore Cleaners</BlockGroups>
+    <BlockGroups>Drills</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>Drills</Name>
-    <BlockGroups>Drills</BlockGroups>
-    <MaxCount>8</MaxCount>
+    <Name>Welders / Grinders</Name>
+    <BlockGroups>Welder-Grinder</BlockGroups>
+    <MaxCount>5</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Refineries</Name>
+    <BlockGroups>Refineries</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Assemblers</Name>
+    <BlockGroups>Assemblers</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>O2/H2 Generators</Name>
+    <BlockGroups>O2 H2 Generators</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Build And Repairs (BARs)</Name>
+    <BlockGroups>BARs</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Weaponry</Name>
+    <BlockGroups>Weaponry</BlockGroups>
+    <MaxCount>50</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>Ore Cleaners</Name>
+    <BlockGroups>Ore Cleaners</BlockGroups>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

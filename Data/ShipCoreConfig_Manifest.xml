@@ -9,6 +9,7 @@
   <ShipCoreFilenames>Data/Cores/Battleship_core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data/Cores/Station_core.xml</ShipCoreFilenames>
   <ShipCoreFilenames>Data/Cores/Fighter_core_SG.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Outpost_core.xml</ShipCoreFilenames>
   <UpgradeModuleFilenames>Data/UpgradeModules/ManuveringStatUpgradeBasic.xml</UpgradeModuleFilenames>
   <UpgradeModuleFilenames>Data/UpgradeModules/ManuveringStatUpgradeAdvanced.xml</UpgradeModuleFilenames>
   <UpgradeModuleFilenames>Data/UpgradeModules/AssemblerCountUpgrade-1.xml</UpgradeModuleFilenames>

@@ -4,9 +4,9 @@
         <Definition xsi:type="MyObjectBuilder_FunctionalBlockDefinition">
             <Id>
                 <TypeId>FunctionalBlock</TypeId>
-                <SubtypeId>Frigate_Core</SubtypeId>
+                <SubtypeId>Outpost_Core</SubtypeId>
             </Id>
-            <DisplayName>Frigate Core</DisplayName>
+            <DisplayName>Outpost Core</DisplayName>
             <Description>TBA</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
@@ -16,16 +16,14 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_Center.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="20" />
-                <Component Subtype="Construction" Count="50" />
-                <Component Subtype="PowerCell" Count="80" />
-                <Component Subtype="Motor" Count="50" />
-                <Component Subtype="MetalGrid" Count="100" />
+                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="PowerCell" Count="50" />
+                <Component Subtype="Motor" Count="40" />
                 <Component Subtype="Display" Count="20" />
-                <Component Subtype="Superconductor" Count="100" />
-                <Component Subtype="Reactor" Count="100" />
-                <Component Subtype="Computer" Count="80" />
-                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Computer" Count="40" />
+                <Component Subtype="SteelPlate" Count="25" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
@@ -45,10 +43,10 @@
 				<Model BuildPercentUpperBound="0.67" File="Models\GridCore_Center_BS2.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_Center_BS3.mwm"/>
 			</BuildProgressModels>
-            <BlockPairName>Frigate_Core</BlockPairName>
+            <BlockPairName>Outpost_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>80</BuildTimeSeconds>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <ScreenAreas>

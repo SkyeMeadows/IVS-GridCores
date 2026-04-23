@@ -16,14 +16,20 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_Center.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="40" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="SteelPlate" Count="250" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="PowerCell" Count="400" />
+                <Component Subtype="Motor" Count="200" />
+                <Component Subtype="MetalGrid" Count="300" />
+                <Component Subtype="Display" Count="80" />
+                <Component Subtype="Superconductor" Count="1000" />
+                <Component Subtype="Detector" Count="150" />
+                <Component Subtype="GravityGenerator" Count="50" />
+                <Component Subtype="Reactor" Count="400" />
                 <Component Subtype="Computer" Count="10" />
-                <Component Subtype="RadioCommunication" Count="40" />
-                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlate" Count="500" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>
@@ -44,7 +50,7 @@
             <BlockPairName>Station_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <BuildTimeSeconds>160</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <ScreenAreas>

@@ -16,14 +16,18 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_Center.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="40" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="LargeTube" Count="20" />
-                <Component Subtype="Computer" Count="10" />
-                <Component Subtype="RadioCommunication" Count="40" />
-                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="500" />
+                <Component Subtype="PowerCell" Count="400" />
+                <Component Subtype="Motor" Count="400" />
+                <Component Subtype="MetalGrid" Count="1000" />
+                <Component Subtype="Display" Count="120" />
+                <Component Subtype="Superconductor" Count="800" />
+                <Component Subtype="Reactor" Count="600" />
+                <Component Subtype="Computer" Count="1200" />
+                <Component Subtype="SteelPlate" Count="200" />
             </Components>
-            <CriticalComponent Subtype="RadioCommunication" Index="0" />
+            <CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Front" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>
 				<MountPoint Side="Back" StartX="0.21" StartY="0.00" EndX="0.79" EndY="1.00"/>
@@ -44,7 +48,7 @@
             <BlockPairName>Battleship_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
-            <BuildTimeSeconds>40</BuildTimeSeconds>
+            <BuildTimeSeconds>240</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
             <ScreenAreas>
