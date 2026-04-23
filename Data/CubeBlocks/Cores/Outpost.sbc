@@ -7,7 +7,7 @@
                 <SubtypeId>Outpost_Core</SubtypeId>
             </Id>
             <DisplayName>Outpost Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core designed for starter bases</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>

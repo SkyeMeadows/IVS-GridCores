@@ -7,7 +7,7 @@
 				<SubtypeId>AssemblerCountUpgrade-1</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: Assembler Count +1</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade allows the grid to have an additional Assembler</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -72,7 +72,7 @@
 				<SubtypeId>BARCountUpgrade-1</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: BAR Count +1</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade allows the grid to have an additional Build And Repair (BAR)</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -138,7 +138,7 @@
 				<SubtypeId>O2H2GeneratorCountUpgrade-4</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: O2/H2 Generator Count +4</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade allows the grid to have 4 additional O2/H2 Generators</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -202,7 +202,7 @@
 				<SubtypeId>RefineryCountUpgrade-4</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: Refinery Count +4</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade allows the grid to have 4 additional Refineries</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -267,7 +267,7 @@
 				<SubtypeId>OreCleanerCountUpgrade-2</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: Ore Cleaner +2</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade allows the grid to have 2 additional Ore Cleaners</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

@@ -7,7 +7,7 @@
                 <SubtypeId>Frigate_Core</SubtypeId>
             </Id>
             <DisplayName>Frigate Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid core for small warships</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>

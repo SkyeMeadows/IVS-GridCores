@@ -7,7 +7,7 @@
                 <SubtypeId>Battleship_Core</SubtypeId>
             </Id>
             <DisplayName>Battleship Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>A Grid Core for the mightiest of all ships</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>

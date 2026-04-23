@@ -7,7 +7,7 @@
 				<SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: Manuvering - Basic</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade improves grid mobility</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -70,7 +70,7 @@
 				<SubtypeId>ManuveringStatUpgradeAdvanced</SubtypeId>
 			</Id>
 			<DisplayName>Core Upgrade: Manuvering - Advanced</DisplayName>
-			<Description>TBA</Description>
+			<Description>Attachable to certain Grid Cores, this upgrade improves grid mobility significantly</Description>
 			<Icon>Textures\LargeGridUpgrade.png</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

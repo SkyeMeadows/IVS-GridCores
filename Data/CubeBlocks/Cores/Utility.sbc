@@ -7,7 +7,7 @@
                 <SubtypeId>Utility_Core</SubtypeId>
             </Id>
             <DisplayName>Utility Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core for larger utility vessels</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>
@@ -72,7 +72,7 @@
                 <SubtypeId>Utility_Core_SG</SubtypeId>
             </Id>
             <DisplayName>Utility Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core for smaller utility vessels</Description>
             <Icon>Textures\SmallGridCore.png</Icon>
             <CubeSize>Small</CubeSize>
             <GuiVisible>true</GuiVisible>

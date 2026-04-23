@@ -7,7 +7,7 @@
                 <SubtypeId>Fighter_Core_SG</SubtypeId>
             </Id>
             <DisplayName>Fighter Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core for any kind of strike craft</Description>
             <Icon>Textures\SmallGridCore.png</Icon>
             <CubeSize>Small</CubeSize>
             <GuiVisible>true</GuiVisible>

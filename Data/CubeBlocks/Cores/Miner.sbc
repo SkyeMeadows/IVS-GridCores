@@ -7,7 +7,7 @@
                 <SubtypeId>Miner_Core</SubtypeId>
             </Id>
             <DisplayName>Miner Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core for a large mining vessel</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>
@@ -73,7 +73,7 @@
                 <SubtypeId>Miner_Core_SG</SubtypeId>
             </Id>
             <DisplayName>Miner Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>Grid Core for a small mining vessel</Description>
             <Icon>Textures\SmallGridCore.png</Icon>
             <CubeSize>Small</CubeSize>
             <GuiVisible>true</GuiVisible>

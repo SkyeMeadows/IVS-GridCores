@@ -7,7 +7,7 @@
                 <SubtypeId>Station_Core</SubtypeId>
             </Id>
             <DisplayName>Station Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>An advanced Grid Core, designed for heavy-duty stations.</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>

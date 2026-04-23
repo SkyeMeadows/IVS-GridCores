@@ -7,7 +7,7 @@
                 <SubtypeId>Cruiser_Core</SubtypeId>
             </Id>
             <DisplayName>Cruiser Core</DisplayName>
-            <Description>TBA</Description>
+            <Description>A Grid core for a medium ship</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>true</GuiVisible>
