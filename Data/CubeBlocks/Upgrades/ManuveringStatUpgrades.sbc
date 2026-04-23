@@ -15,9 +15,16 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_UpgradeModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="PowerCell" Count="60" />
+                <Component Subtype="MetalGrid" Count="50" />
+                <Component Subtype="Motor" Count="80" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0.20" StartY="0.00" EndX="0.80" EndY="1.00"/>
 				<MountPoint Side="Top" StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.53"/>
@@ -46,6 +53,7 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
             <PrimarySound>BlockModuleProductivity</PrimarySound>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
@@ -70,9 +78,18 @@
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\GridCore_UpgradeModule.mwm</Model>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="PowerCell" Count="60" />
+                <Component Subtype="MetalGrid" Count="50" />
+				<Component Subtype="Superconductor" Count="50" />
+				<Component Subtype="Reactor" Count="50" />
+                <Component Subtype="Motor" Count="80" />
+                <Component Subtype="Display" Count="10" />
+                <Component Subtype="Computer" Count="20" />
+                <Component Subtype="SteelPlate" Count="25" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<CriticalComponent Subtype="Computer" Index="0"/>
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0.20" StartY="0.00" EndX="0.80" EndY="1.00"/>
 				<MountPoint Side="Top" StartX="0.20" StartY="0.00" EndX="0.80" EndY="0.53"/>
@@ -101,6 +118,7 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
             <PrimarySound>BlockModuleProductivity</PrimarySound>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
