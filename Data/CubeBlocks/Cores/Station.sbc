@@ -20,6 +20,7 @@
                 <Component Subtype="Construction" Count="200" />
                 <Component Subtype="PowerCell" Count="400" />
                 <Component Subtype="Motor" Count="200" />
+                <Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="100" />
                 <Component Subtype="MetalGrid" Count="300" />
                 <Component Subtype="Display" Count="80" />
                 <Component Subtype="Superconductor" Count="1000" />

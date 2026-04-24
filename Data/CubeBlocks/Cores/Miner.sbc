@@ -19,8 +19,9 @@
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="Construction" Count="50" />
                 <Component Subtype="PowerCell" Count="100" />
-                <Component Subtype="Motor" Count="50" />
+                <Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="10" />
                 <Component Subtype="MetalGrid" Count="150" />
+                <Component Subtype="Motor" Count="50" />
                 <Component Subtype="Display" Count="10" />
                 <Component Subtype="Superconductor" Count="50" />
                 <Component Subtype="Detector" Count="50" />
@@ -85,6 +86,7 @@
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="20" />
                 <Component Subtype="PowerCell" Count="20" />
+                <Component Subtype="IVS-BasicGridCoreProcessingUnit" Count="10" />
                 <Component Subtype="Motor" Count="10" />
                 <Component Subtype="Display" Count="4" />
                 <Component Subtype="Computer" Count="10" />

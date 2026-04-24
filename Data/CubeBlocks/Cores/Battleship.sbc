@@ -19,6 +19,7 @@
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="500" />
                 <Component Subtype="PowerCell" Count="400" />
+                <Component Subtype="IVS-AdvancedGridCoreProcessingUnit" Count="40" />
                 <Component Subtype="Motor" Count="400" />
                 <Component Subtype="MetalGrid" Count="1000" />
                 <Component Subtype="Display" Count="120" />

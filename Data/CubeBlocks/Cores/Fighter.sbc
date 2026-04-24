@@ -20,6 +20,7 @@
                 <Component Subtype="Construction" Count="10" />
                 <Component Subtype="PowerCell" Count="20" />
                 <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="IVS-BasicGridCoreProcessingUnit" Count="10" />
                 <Component Subtype="Motor" Count="40" />
                 <Component Subtype="Display" Count="10" />
                 <Component Subtype="Computer" Count="20" />

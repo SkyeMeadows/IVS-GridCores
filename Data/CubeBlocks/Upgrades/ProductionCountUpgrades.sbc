@@ -18,6 +18,7 @@
 				<Component Subtype="SteelPlate" Count="50" />
                 <Component Subtype="Construction" Count="50" />
                 <Component Subtype="PowerCell" Count="100" />
+				<Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="80" />
                 <Component Subtype="Motor" Count="50" />
                 <Component Subtype="MetalGrid" Count="150" />
                 <Component Subtype="Display" Count="10" />
@@ -83,6 +84,7 @@
 				<Component Subtype="SteelPlate" Count="150" />
                 <Component Subtype="Construction" Count="50" />
                 <Component Subtype="PowerCell" Count="200" />
+				<Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="200" />
                 <Component Subtype="Motor" Count="40" />
                 <Component Subtype="MetalGrid" Count="100" />
                 <Component Subtype="Display" Count="20" />
@@ -149,6 +151,7 @@
 				<Component Subtype="SteelPlate" Count="150" />
                 <Component Subtype="Construction" Count="75" />
                 <Component Subtype="PowerCell" Count="100" />
+				<Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="80" />
                 <Component Subtype="Motor" Count="60" />
                 <Component Subtype="MetalGrid" Count="100" />
                 <Component Subtype="Display" Count="20" />
@@ -213,6 +216,7 @@
 				<Component Subtype="SteelPlate" Count="150" />
                 <Component Subtype="Construction" Count="50" />
                 <Component Subtype="PowerCell" Count="50" />
+				<Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="80" />
                 <Component Subtype="Motor" Count="150" />
                 <Component Subtype="MetalGrid" Count="150" />
                 <Component Subtype="Display" Count="40" />
@@ -278,6 +282,7 @@
 				<Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="50" />
                 <Component Subtype="PowerCell" Count="50" />
+				<Component Subtype="IVS-StandardGridCoreProcessingUnit" Count="60" />
                 <Component Subtype="Motor" Count="125" />
                 <Component Subtype="MetalGrid" Count="75" />
                 <Component Subtype="Display" Count="20" />

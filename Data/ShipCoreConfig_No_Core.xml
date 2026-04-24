@@ -98,6 +98,7 @@
     <BlockGroups>Welder-Grinder</BlockGroups>
     <BlockGroups>Weaponry</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
+    <BlockGroups>Ore Cleaners</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
