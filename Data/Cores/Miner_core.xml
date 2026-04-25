@@ -78,7 +78,6 @@
     <BlockGroups>Welder-Grinder</BlockGroups>
     <BlockGroups>Refineries</BlockGroups>
     <BlockGroups>Assemblers</BlockGroups>
-    <BlockGroups>O2 H2 Generators</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>0</MaxCount>
@@ -97,6 +96,14 @@
   <BlockLimits>
     <Name>Ore Cleaners</Name>
     <BlockGroups>Ore Cleaners</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>O2/H2 Generators</Name>
+    <BlockGroups>O2 H2 Generators</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

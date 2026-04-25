@@ -17,7 +17,10 @@
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>true</EnableActiveDefenseModifiers>
-  
+  <AllowedUpgradeModules>
+    <SubtypeId>ManuveringStatUpgradeBasic</SubtypeId>
+    <MaxCount>4</MaxCount>
+  </AllowedUpgradeModules>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
@@ -69,7 +72,6 @@
     <BlockGroups>Refineries</BlockGroups>
     <BlockGroups>Assemblers</BlockGroups>
     <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>O2 H2 Generators</BlockGroups>
     <BlockGroups>Ore Cleaners</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
@@ -80,6 +82,14 @@
     <Name>Weaponry</Name>
     <BlockGroups>Weaponry</BlockGroups>
     <MaxCount>300</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>O2/H2 Generators</Name>
+    <BlockGroups>O2 H2 Generators</BlockGroups>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

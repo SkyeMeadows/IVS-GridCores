@@ -60,7 +60,7 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Refinery</TypeId>
-      <SubtypeId>BlastFurnace</SubtypeId>
+      <SubtypeId>Blast Furnace</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>

@@ -109,7 +109,7 @@
 			</BuildProgressModels>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-            <BlockPairName>Fighter_Core</BlockPairName>
+            <BlockPairName>Miner_Core</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
