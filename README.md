@@ -1,0 +1,3 @@
+# IVS Grid Cores
+
+First and foremost, all credit for the core & core upgrade modules goes to Kuvat.
