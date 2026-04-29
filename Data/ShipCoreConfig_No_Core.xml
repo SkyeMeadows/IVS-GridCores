@@ -62,6 +62,17 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
+    <Name>Disallowed Blocks</Name>
+    <BlockGroups>Welder-Grinder</BlockGroups>
+    <BlockGroups>Weaponry</BlockGroups>
+    <BlockGroups>BARs</BlockGroups>
+    <BlockGroups>Ore Cleaners</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
     <Name>Drills</Name>
     <BlockGroups>Drills</BlockGroups>
     <MaxCount>1</MaxCount>
@@ -89,17 +100,6 @@
     <Name>Refineries</Name>
     <BlockGroups>Refineries</BlockGroups>
     <MaxCount>1</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>Disallowed Blocks</Name>
-    <BlockGroups>Welder-Grinder</BlockGroups>
-    <BlockGroups>Weaponry</BlockGroups>
-    <BlockGroups>BARs</BlockGroups>
-    <BlockGroups>Ore Cleaners</BlockGroups>
-    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
